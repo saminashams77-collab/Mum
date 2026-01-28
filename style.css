@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #fff0f5, #fde7f3);
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: linear-gradient(
+    135deg,
+    #ffb6d5,
+    #ffc1e3,
+    #ffd6eb
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #5a1636;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.4rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 650px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  max-width: 850px;
+  margin: -70px auto 60px;
+  padding: 45px;
+  border-radius: 22px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 25px;
+}
+
+.card p {
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+.signature {
+  display: block;
+  margin-top: 30px;
+  text-align: right;
+  font-weight: 600;
+}
+
+/* QUALITIES */
+.qualities {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.qualities h2 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+}
+
+.quality-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.quality-box {
+  background: linear-gradient(
+    135deg,
+    #f6c1de,
+    #ffd1ea
+  );
+  padding: 30px;
+  border-radius: 18px;
+  font-weight: 600;
+  color: #6b1f46;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+  background: #f3b6d8;
+  padding: 25px;
+  text-align: center;
+  font-weight: 500;
+}
